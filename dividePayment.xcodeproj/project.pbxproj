@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36DCAC9C8F49F69541C7AEF9 /* Pods_dividePayment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC8D368FF77B6419EC3755F /* Pods_dividePayment.framework */; };
+		5C10D7392327D50700CB37A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C10D7382327D50700CB37A6 /* AppDelegate.swift */; };
+		5C10D73B2327D50700CB37A6 /* ScanQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C10D73A2327D50700CB37A6 /* ScanQRViewController.swift */; };
+		5C10D73E2327D50700CB37A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C10D73C2327D50700CB37A6 /* Main.storyboard */; };
+		5C10D7402327D50800CB37A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C10D73F2327D50800CB37A6 /* Assets.xcassets */; };
+		5C10D7432327D50800CB37A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C10D7412327D50800CB37A6 /* LaunchScreen.storyboard */; };
+		5C10D74D2327E5A900CB37A6 /* QRCodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C10D74C2327E5A900CB37A6 /* QRCodeReader.framework */; };
+		5C10D759232B9F1500CB37A6 /* QRParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C10D758232B9F1500CB37A6 /* QRParameters.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CC8D368FF77B6419EC3755F /* Pods_dividePayment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dividePayment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA3410740C3E61F63831FC0 /* Pods-dividePayment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dividePayment.release.xcconfig"; path = "Target Support Files/Pods-dividePayment/Pods-dividePayment.release.xcconfig"; sourceTree = "<group>"; };
+		5C10D7352327D50700CB37A6 /* dividePayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dividePayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C10D7382327D50700CB37A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C10D73A2327D50700CB37A6 /* ScanQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRViewController.swift; sourceTree = "<group>"; };
+		5C10D73D2327D50700CB37A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C10D73F2327D50800CB37A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C10D7422327D50800CB37A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C10D7442327D50800CB37A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C10D74C2327E5A900CB37A6 /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QRCodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C10D758232B9F1500CB37A6 /* QRParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRParameters.swift; sourceTree = "<group>"; };
+		9D54D7F95A55B6EEF073198E /* Pods-dividePayment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dividePayment.debug.xcconfig"; path = "Target Support Files/Pods-dividePayment/Pods-dividePayment.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C10D7322327D50700CB37A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C10D74D2327E5A900CB37A6 /* QRCodeReader.framework in Frameworks */,
+				36DCAC9C8F49F69541C7AEF9 /* Pods_dividePayment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C10D72C2327D50700CB37A6 = {
+			isa = PBXGroup;
+			children = (
+				5C10D7372327D50700CB37A6 /* dividePayment */,
+				5C10D7362327D50700CB37A6 /* Products */,
+				90A0F0ECE2EB22EBEDE3F874 /* Pods */,
+				865F9D668C4A47F5B5384B62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C10D7362327D50700CB37A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C10D7352327D50700CB37A6 /* dividePayment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C10D7372327D50700CB37A6 /* dividePayment */ = {
+			isa = PBXGroup;
+			children = (
+				5C10D7382327D50700CB37A6 /* AppDelegate.swift */,
+				5C10D758232B9F1500CB37A6 /* QRParameters.swift */,
+				5C10D73A2327D50700CB37A6 /* ScanQRViewController.swift */,
+				5C10D73C2327D50700CB37A6 /* Main.storyboard */,
+				5C10D73F2327D50800CB37A6 /* Assets.xcassets */,
+				5C10D7412327D50800CB37A6 /* LaunchScreen.storyboard */,
+				5C10D7442327D50800CB37A6 /* Info.plist */,
+			);
+			path = dividePayment;
+			sourceTree = "<group>";
+		};
+		865F9D668C4A47F5B5384B62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C10D74C2327E5A900CB37A6 /* QRCodeReader.framework */,
+				0CC8D368FF77B6419EC3755F /* Pods_dividePayment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90A0F0ECE2EB22EBEDE3F874 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D54D7F95A55B6EEF073198E /* Pods-dividePayment.debug.xcconfig */,
+				0EA3410740C3E61F63831FC0 /* Pods-dividePayment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C10D7342327D50700CB37A6 /* dividePayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C10D7472327D50800CB37A6 /* Build configuration list for PBXNativeTarget "dividePayment" */;
+			buildPhases = (
+				B66EAB09F1CBF3231BB02514 /* [CP] Check Pods Manifest.lock */,
+				5C10D7312327D50700CB37A6 /* Sources */,
+				5C10D7322327D50700CB37A6 /* Frameworks */,
+				5C10D7332327D50700CB37A6 /* Resources */,
+				04B482C3A4294278C145ABBC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dividePayment;
+			productName = dividePayment;
+			productReference = 5C10D7352327D50700CB37A6 /* dividePayment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C10D72D2327D50700CB37A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Evgeny Salov";
+				TargetAttributes = {
+					5C10D7342327D50700CB37A6 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 5C10D7302327D50700CB37A6 /* Build configuration list for PBXProject "dividePayment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C10D72C2327D50700CB37A6;
+			productRefGroup = 5C10D7362327D50700CB37A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C10D7342327D50700CB37A6 /* dividePayment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C10D7332327D50700CB37A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C10D7432327D50800CB37A6 /* LaunchScreen.storyboard in Resources */,
+				5C10D7402327D50800CB37A6 /* Assets.xcassets in Resources */,
+				5C10D73E2327D50700CB37A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04B482C3A4294278C145ABBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dividePayment/Pods-dividePayment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dividePayment/Pods-dividePayment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dividePayment/Pods-dividePayment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B66EAB09F1CBF3231BB02514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dividePayment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C10D7312327D50700CB37A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C10D73B2327D50700CB37A6 /* ScanQRViewController.swift in Sources */,
+				5C10D7392327D50700CB37A6 /* AppDelegate.swift in Sources */,
+				5C10D759232B9F1500CB37A6 /* QRParameters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C10D73C2327D50700CB37A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C10D73D2327D50700CB37A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C10D7412327D50800CB37A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C10D7422327D50800CB37A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C10D7452327D50800CB37A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C10D7462327D50800CB37A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C10D7482327D50800CB37A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D54D7F95A55B6EEF073198E /* Pods-dividePayment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VCP7CGJ64R;
+				INFOPLIST_FILE = dividePayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23321.dividePayment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C10D7492327D50800CB37A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA3410740C3E61F63831FC0 /* Pods-dividePayment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VCP7CGJ64R;
+				INFOPLIST_FILE = dividePayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23321.dividePayment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C10D7302327D50700CB37A6 /* Build configuration list for PBXProject "dividePayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C10D7452327D50800CB37A6 /* Debug */,
+				5C10D7462327D50800CB37A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C10D7472327D50800CB37A6 /* Build configuration list for PBXNativeTarget "dividePayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C10D7482327D50800CB37A6 /* Debug */,
+				5C10D7492327D50800CB37A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C10D72D2327D50700CB37A6 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_dividePayment {
+  umbrella header "Pods-dividePayment-umbrella.h"
+
+  export *
+  module * { export * }
+}
